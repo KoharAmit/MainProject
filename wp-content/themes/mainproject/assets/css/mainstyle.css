@@ -1,0 +1,277 @@
+html {
+    margin: 0px !important;
+}
+
+body {
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header div {
+    height: 115px;
+    flex-grow: 1;
+}
+
+header div img {
+    height: 100%;
+}
+
+.menu-main-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    padding: 0px 10px;
+}
+
+
+/* Add background color to the header */
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+
+/* Style the logo */
+
+header img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+/* Style the navigation menu */
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #f1c40f;
+}
+
+
+/** About us CSS*/
+
+#our-team {
+    background-color: #fafafa;
+    padding: 70px 50px;
+}
+
+#our-team h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team-member-image {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.team-member h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-member-position {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.team-member-description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+/* footer style */
+
+.footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.footer div {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.footer ul li {
+    margin-bottom: 15px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.footer p strong {
+    font-weight: 600;
+}
+
+.footer .bar {
+    background-color: #333333;
+    padding: 30px 0;
+}
+
+.footer .bar p {
+    font-size: 16px;
+    color: #a0a0a0;
+    margin: 0;
+}
+
+
+/* Featured product section */
+
+.featured-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+/* Product image */
+
+.product-image {
+    flex-basis: 45%;
+    max-width: 45%;
+    margin-right: 40px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Product details */
+
+.product-details {
+    flex-basis: 60%;
+    max-width: 60%;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/* Shop button */
+
+.shop-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+    background-color: #ff4f4f;
+}
+
+.entry-header {
+    background-color: white;
+}
+
+
+/* header logo style for shop page */
+
+header div a img {
+    width: 100px;
+}
